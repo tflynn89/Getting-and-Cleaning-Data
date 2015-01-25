@@ -5,6 +5,10 @@ There are three files in the the Getting-and-Cleaning-Data repository.
 
 ## README.md
   Which explains all the files included in the repository
+  
+## CodeBook.md
+ Used to understand how the code manipulates and changes the initial data
+
 ## run_analysis.R
   Documented code used to solve the homework assignment for the Coursera course on Getting and Cleaning Data
   It completes the following steps  and ultimately writes a tidy data table into your working directory.
@@ -14,6 +18,7 @@ There are three files in the the Getting-and-Cleaning-Data repository.
   * 4.Appropriately labels the data set with descriptive variable names. 
   * 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   This code is run from a working directory inside the initial unzipped folder location (\getdata-projectfiles-UCI HAR Dataset)
-  The reshape2 and dplyr are necessary for it to run correctly 
-## CodeBook.md
- Used to understand how the code manipulates and changes the initial data
+  Necessary packages include:
+  * dplyr
+  * reshape2
+
