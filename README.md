@@ -1,5 +1,7 @@
 # Getting-and-Cleaning-Data
-Used for the Coursera Getting and Cleaning Data Course
+Used for the Coursera Getting and Cleaning Data Course <br/>
+The data all of used for all of this originally came from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 
 There are three files in the the Getting-and-Cleaning-Data repository.
 
@@ -16,8 +18,8 @@ There are three files in the the Getting-and-Cleaning-Data repository.
   * 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
   * 3.Uses descriptive activity names to name the activities in the data set
   * 4.Appropriately labels the data set with descriptive variable names. 
-  * 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  This code is run from a working directory inside the initial unzipped folder location (\getdata-projectfiles-UCI HAR Dataset)
+  * 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. <br/>
+  This code is run from a working directory inside the initial unzipped folder location (\getdata-projectfiles-UCI HAR Dataset)<br/>
   Necessary packages include:
   * dplyr
   * reshape2
