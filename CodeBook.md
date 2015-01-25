@@ -2,12 +2,12 @@
 
 ## subject
 * The person's data we are using (1-30)
-##activity
+## activity
 * Text explaining what the activity actually is
-##source
+## source
 * 1 - Test 
 * 2 - Training
-##order 
+## order 
 *The position in which the tables need to be pared
 ## activity_id
 * 1 - Walking
