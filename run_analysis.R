@@ -102,3 +102,5 @@ answer<-dcast(attempt, subject + activity ~ variable, mean)
 
 ##I don't think this is actually part of step 5 but is needed for the homework so here is the write file
 write.table(answer, "tidy_table.txt",row.name=FALSE)
+## So the final table will be outputted at the end
+answer
